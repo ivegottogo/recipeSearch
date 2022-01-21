@@ -9,7 +9,7 @@ de deux façons: Une recherche par catégorie et une recherche par catégorie av
 
 ## Auteur
 
-Jonathan Labelle (LABJ28039006)
+Jonathan Labelle
 
 ## Fonctionnement
 
