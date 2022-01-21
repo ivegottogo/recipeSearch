@@ -35,3 +35,16 @@ une de ces deux commandes
 ./main exemple.txt -S fichiersorti.txt
 make run ARGS="exemple.txt -S fichiersorti.txt"
 ```
+
+## Format fichier d'entrée
+
+Le fichier d'entrée doit être de format .txt et doit contenir une recette par ligne ainsi qu'un nombre illimité de catégories à laquelle elle peut appartenir.
+Une ligne mal formée ne sera pas ajouté au programme, mais les autres lignes du fichier le seront si elles sont bien formées.
+
+```sh
+PokeBol vege [vegetarien][asiatique]
+Omelette au saumon fume [dejeuner][poisson]
+Plateau de legumes [vegetarien]
+Fondue au fromage [vegetarien -- ligne ignoree
+```
+
